@@ -1,62 +1,96 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Industrialization </title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <div class = "top">
-        <div class="box">
-            <div class = "item2">
-                <h3><a href="#">The Age of Industry</a></h3>
-            </div>
-            <div class = "item" >
-                <h2><a href="#origin">Origin</a></h2>
-            </div>
-            <div class = "item" >
-                <h2><a href="#dev">Developments</a></h2>
-            </div>
-            <div class = "item" >
-                <h2><a href="#life">Lifestyle</a></h2>
-            </div>
-            <div class = "item">
-                <h2><a href="#brit">Britain</a></h2>
-            </div>
-            <div class = "item" >
-                <h2><a href="#econ">Economic Systems</a></h2>
-            </div>
-        </div>
-    </div>
-    <div class = "header"  id = "#">
-        <h1>Industrialization<span>.</span></h1>
-    </div>
-    <div id = "origin">
-        <br>
-        <h4>Origin</h4>
-    </div>
-    <div id = "life">
-        <br>
-        <h4>Lifestyle</h4>
-    </div>
-    <div id = "dev">
-        <br>
-        <h4>Developments</h4>
-    </div>
-    <div id = "brit">
-        <br>
-        <br>
-        <div class = "pop" style="background-image: url('BritainPhoto.jpg');">
-            <div class = "forPhot">
-                <h4>Britain</h4>
-            </div>
-        </div>
-    </div>
-    <div id = "econ">
-        <br>
-        <h4>Economic Systems</h4>
-    </div>
-</body>
-</html>
+body{
+    font-family: sans-serif;
+    background-color: white;
+    color:#03396c;
+    /* padding-left: 2vw; */
+}
+html{
+    scroll-behavior: smooth;
+}
+a{
+    padding: 2vw;
+    text-decoration: none;
+    color: inherit; 
+}
+span{
+    color: black;
+}
+
+.top{
+    display: flex;
+    justify-content: center;
+}
+.header{
+    padding-top: 15vw;
+    display: flex;
+    background: #e3efff;
+    justify-content: center;
+    padding-bottom: 20vw;
+}
+.pop{
+    background-repeat: no-repeat;
+    background-size: 100% 75%;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.item2{
+    display:flex;
+    justify-content: center;
+}
+
+.box{
+    background-color:#f0f4fa;
+    display: flex;
+    border-radius: 2vw;
+    position: fixed;
+    justify-content: center;
+    flex-direction: row;
+    box-shadow: 0.5vw 0.5vw 2vw  gray;
+    
+}
+
+.forPhot{
+    padding-top: 10vh;
+    text-align: center;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    width: 100vw;
+    height: 65vh;
+}
+.forPhot h4{
+    color: white;
+}
+
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    position: relative;
+}
+.item:hover h2{
+    color:#2971cc;
+    border-radius: 2vw;
+    transform: scale(1.05);
+}
+h1{
+    font-size: 7vw;
+    color: #335c8f;
+}
+h2{
+    font-size: 2vw;
+    color: #809aba;
+}
+
+h3{
+    font-size: 2vw;
+    color: #1b3c70;
+}
+
+h4{
+    font-size: 6vw;
+    color: #083a78;
+    padding-bottom: 40vw;
+}
