@@ -2,7 +2,6 @@ body{
     font-family: sans-serif;
     background-color: white;
     color:#03396c;
-    /* padding-left: 2vw; */
 }
 html{
     scroll-behavior: smooth;
@@ -13,6 +12,7 @@ a{
     color: inherit; 
 }
 span{
+    font-family: serif;
     color: black;
 }
 
@@ -28,6 +28,7 @@ span{
     padding-bottom: 20vw;
 }
 .pop{
+    padding: 0vw 0vw 0vw 0vw;
     background-repeat: no-repeat;
     background-size: 100% 75%;
     width: 100vw;
@@ -75,10 +76,45 @@ span{
     border-radius: 2vw;
     transform: scale(1.05);
 }
+
+#brit{
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+}
+.subheader h5{
+    font-size: 2vw;
+}
+
+.text-container{
+    display: flex;
+    flex-direction: row;
+    padding-top: 2vw;
+    padding-right: 4vw;
+    padding-left: 6vw;
+}
+
+.text{
+    box-shadow: 0.5vw 0.5vw 2vw  gray;
+    border-radius: 2vw;
+    padding-right: 2vw;
+    padding-left: 2vw;
+    font-size: 3vw;
+}
+
+.text h6{
+    
+}
+
+#econ{
+    padding-top: 6vw;
+}
+
 h1{
     font-size: 7vw;
     color: #335c8f;
 }
+
 h2{
     font-size: 2vw;
     color: #809aba;
