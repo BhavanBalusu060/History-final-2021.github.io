@@ -1,7 +1,8 @@
 body{
     font-family: -apple-system;
-    background-color: #FDF6F6;
-    color:#D0E1F9;
+    background-color: white;
+    color:#03396c;
+    /* padding-left: 2vw; */
 }
 html{
     scroll-behavior: smooth;
@@ -9,63 +10,70 @@ html{
 a{
     padding: 2vw;
     text-decoration: none;
-    color: inherit;
+    color: inherit; 
+}
+span{
+    color: black;
 }
 
+.top{
+    padding-left: 2vw;
+}
 .header{
     padding-top: 15vw;
     display: flex;
+    background: #e3efff;
     justify-content: center;
     padding-bottom: 12vw;
 }
 
 .item2{
     display:flex;
-    width:100%;
+    padding-left: 1vw;
+    padding-right: 1vw;
     justify-content: center;
-    
-
 }
-.text{
-    display: block;
-   }
+
 .box{
-    background-color:white;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    background-color:#f0f4fa;
     display: flex;
-    border-radius: 1vw;
+    border-radius: 2vw;
     position: fixed;
-    width: 100%;
-    padding-right: 4vw;
+    justify-content: center;
     flex-direction: row;
-    justify-content: flex-end;
+    box-shadow: 0.5vw 0.5vw 2vw  gray;
 }
 
 .item{
-    padding-left: 3vw;
-    padding-right: 2vw;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    position: relative;
 }
 .item:hover{
-    background-color: #FDF3F3;
-    border-radius: 1vw;
-    transform: scale(0.9);
+    color: #5f9aed;
+    border-radius: 2vw;
+    transform: scale(1.05);
 }
 h1{
     font-size: 7vw;
-    color:#F58D8D;
+    color: #335c8f;
 }
 h2{
     font-size: 2.5vw;
-    color: #AF1281;
+    color: #809aba;
 }
+
 h3{
     font-size: 2.5vw;
-    background: linear-gradient(to right,#6B0772, #AF1281, #CF268A, #E65C9c, #fb8cab);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #1b3c70;
 }
+
 h4{
     font-size: 6vw;
-    color: #6B0772;
+    color: #154a8c;
     padding-bottom: 40vw;
 }
