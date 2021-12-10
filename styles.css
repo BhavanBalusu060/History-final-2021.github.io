@@ -53,8 +53,8 @@ span{
     margin: auto;
     position: relative;
 }
-.item:hover{
-    color: #5f9aed;
+.item:hover h2{
+    color:#2971cc;
     border-radius: 2vw;
     transform: scale(1.05);
 }
