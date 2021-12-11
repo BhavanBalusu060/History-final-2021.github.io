@@ -15,6 +15,67 @@ span{
     font-family: serif;
     color: black;
 }
+.title{
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+    padding-left: 5vw;
+    font-size: 8vh;
+    color:#14527d;
+    text-shadow: 0.25vh 0.5vh 2vh #b4ddfa;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #e3efff;
+}
+
+.sub-footer{
+    display: flex;
+    border-radius: 1vw;
+    padding: 1vh 2vh 2vh 5vh;
+    font-family: sans-serif;
+    font-size: 10vh;
+    color: #083a78;
+    height: 10vh;
+    background-color: #b2bef7;
+    box-shadow: 0.5vw 0.5vw 2vw  #3d51b3;
+
+}
+
+.mega-footer{
+    display: flex;
+    background-color: white;
+    padding-left: 3vw;
+}
+.mega-footer h2{
+    font-size: 1vw;
+}
+
+.footer h6{
+    font-size: 5vh;
+}
+.citation{
+    display: flex;
+    flex-direction: column;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    justify-content: center;
+}
+
+.citation-item{
+    background-color: white;
+    border-radius: 1vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    margin-bottom: 2vw;
+    box-shadow: 0.5vw 0.5vw 2vw  #bfddf2;
+}
+
+.citation-item h2{
+    font-size: 1.2vw;
+    color: black;
+}
 
 .top{
     display: flex;
@@ -60,6 +121,15 @@ span{
     width: 100vw;
     height: 65vh;
 }
+
+#life .forPhot{
+    padding-top: 10vh;
+    text-align: center;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0); /* Black w/opacity/see-through */
+    width: 100vw;
+    height: 65vh;
+}
 .forPhot h4{
     color: white;
 }
@@ -85,11 +155,17 @@ span{
 #life{
     margin-bottom: 55vw;
 }
-
+#dev{
+    margin-bottom: 55vw;
+}
+#origin{
+    margin-bottom: 20vw;
+}
 #brit{
-    display: flex;
-    justify-content: start;
-    flex-direction: column;
+    margin-bottom: 20vw;
+}
+#econ{
+    margin-bottom: 20vw;
 }
 .subheader h5{
     font-size: 2vw;
@@ -138,7 +214,5 @@ h3{
 }
 
 h4{
-    font-size: 6vw;
-    color: #083a78;
-    padding-bottom: 40vw;
+    font-size: 11vh;
 }
