@@ -70,11 +70,20 @@ span{
     align-items: center;
     margin: auto;
     position: relative;
+    transition: all 0.2s ease-in-out;
 }
-.item:hover h2{
+.item h2:hover{
     color:#2971cc;
     border-radius: 2vw;
     transform: scale(1.05);
+}
+
+
+.item h2 a {
+    transition: all 0.2s ease-in-out;
+}
+#life{
+    margin-bottom: 55vw;
 }
 
 #brit{
@@ -88,7 +97,7 @@ span{
 
 .text-container{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     padding-top: 2vw;
     padding-right: 4vw;
     padding-left: 6vw;
@@ -100,11 +109,17 @@ span{
     padding-right: 2vw;
     padding-left: 2vw;
     font-size: 3vw;
+    margin-bottom: 2vw;
+    margin-top: 3vw;
 }
 
 
 #econ{
     padding-top: 6vw;
+}
+
+#dev{
+    margin-top: 20vw;
 }
 
 h1{
