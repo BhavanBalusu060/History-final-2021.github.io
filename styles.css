@@ -152,12 +152,14 @@ span{
 .item h2 a {
     transition: all 0.2s ease-in-out;
 }
+
+
 #life{
     margin-bottom: 55vw;
 }
 #dev{
     margin-top: 20vw;
-    margin-bottom: 55vw;
+    margin-bottom: 40vw;
 }
 #origin{
     margin-bottom: 20vw;
@@ -166,9 +168,10 @@ span{
     margin-bottom: 20vw;
 }
 #econ{
-    margin-bottom: 20vw;
-    padding-top: 6vw;
     margin-bottom: 90vw;
+}
+#econ b{
+    color: black;
 }
 .subheader h5{
     font-size: 2vw;
@@ -190,11 +193,6 @@ span{
     font-size: 3vw;
     margin-bottom: 2vw;
     margin-top: 3vw;
-}
-
-
-#econ b{
-    color: black;
 }
 
 
