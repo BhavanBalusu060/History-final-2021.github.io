@@ -192,6 +192,11 @@ span{
 
 #econ{
     padding-top: 6vw;
+    margin-bottom: 90vw;
+}
+
+#econ b{
+    color: black;
 }
 
 #dev{
