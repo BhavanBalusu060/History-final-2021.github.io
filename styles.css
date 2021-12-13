@@ -156,6 +156,7 @@ span{
     margin-bottom: 55vw;
 }
 #dev{
+    margin-top: 20vw;
     margin-bottom: 55vw;
 }
 #origin{
@@ -166,6 +167,8 @@ span{
 }
 #econ{
     margin-bottom: 20vw;
+    padding-top: 6vw;
+    margin-bottom: 90vw;
 }
 .subheader h5{
     font-size: 2vw;
@@ -190,18 +193,10 @@ span{
 }
 
 
-#econ{
-    padding-top: 6vw;
-    margin-bottom: 90vw;
-}
-
 #econ b{
     color: black;
 }
 
-#dev{
-    margin-top: 20vw;
-}
 
 h1{
     font-size: 7vw;
@@ -220,4 +215,4 @@ h3{
 
 h4{
     font-size: 11vh;
-} 
+}
