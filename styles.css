@@ -28,6 +28,7 @@ span{
     display: flex;
     flex-direction: column;
     background-color: #e3efff;
+    margin-top: 90vw;;
 }
 
 .sub-footer{
@@ -167,11 +168,9 @@ span{
 #brit{
     margin-bottom: 20vw;
 }
-#econ{
-    margin-bottom: 90vw;
-}
+
 #econ b{
-    color: black;
+    color: #3694FF;
 }
 .subheader h5{
     font-size: 2vw;
