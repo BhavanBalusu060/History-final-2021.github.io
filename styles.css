@@ -28,7 +28,7 @@ span{
     display: flex;
     flex-direction: column;
     background-color: #e3efff;
-    margin-top: 100vw;;
+    margin-top: 20vw;
 }
 
 .sub-footer{
@@ -163,7 +163,8 @@ span{
     margin-bottom: 40vw;
 }
 #origin{
-    margin-bottom: 20vw;
+    margin-top: 100vw;
+    margin-bottom: 80vw;
 }
 #brit{
     margin-bottom: 20vw;
